@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn-1 {
+    border-style: none;
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.crt {
+    font-size: 16px;
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.htm {
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    animation: hitam 0.3s ease;
+}
+
+/* kotak */
+.kotak-1, .kotak-2, .kotak-3, .kotak-4, .kotak-5, .kotak-6, .kotak-7, .kotak-8, .kotak-9, .kotak-10, .kotak-11, .kotak-12, .kotak-13, .kotak-b1, .kotak-b2, .kotak-b3, .kotak-b4, .kotak-b5, .kotak-b6, .kotak-b7, .kotak-b8, .kotak-b9, .kotak-b10, .kotak-b11, .kotak-b12 {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    animation: kotak 0.3s ease;
+}
+
+.p-1, .p-2, .p-3, .p-4, .p-5, .p-6, .p-7, .p-8, .p-9, .p-10, .p-11, .p-12, .p-13, .p-b1, .p-b2, .p-b3, .p-b4, .p-b5, .p-b6, .p-b7, .p-b8, .p-b9, .p-b10, .p-b11, .p-b12 {
+    color: rgb(114, 114, 114);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.but-1, .but-2, .but-3, .but-4, .but-5, .but-51, .but-6, .but-7, .but-8, .but-9, .but-10, .but-11, .but-12, .but-13, .but-b1, .but-b2, .but-b3, .but-b4, .but-b5, .but-b6, .but-b7, .but-b8, .but-b9, .but-b10, .but-b11, .but-b12 {
+    background-color: red;
+    border-radius: 30px;
+    border: 5px solid rgba(255, 80, 80, 0.726);
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nama, .mknApa, .MK {
+    width: 200px;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: rgb(114, 114, 114);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid rgb(151, 151, 151);
+}
+
+/* ily */
+.ily {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: none;
+    animation: ilyu 0.6s ease;
+    text-align: center;
+}
+
+@keyframes ilyu {
+    0% {
+        font-size: 10px;
+    }
+
+    50% {
+        font-size: 38px;
+    }
+
+    100% {
+        font-size: 28px;
+    }
+}
+
+@keyframes kotak {
+    from {
+        top: 40%;
+        opacity: 0.5;
+    }
+
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+@keyframes hitam {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+.crtt {
+    animation: createby 0.3s ease;
+}
+
+@keyframes createby {
+    from {
+        color: black;
+    }
+
+    to {
+        color: white;
+    }
+}
