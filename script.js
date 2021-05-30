@@ -55,8 +55,8 @@ const but51 = document.querySelector('.but-51');
 but4.addEventListener('click', function(){
     kotak4.style.display = 'none';
     kotak5.style.display = 'block';
-    but5.style.left = '120px';
-    but51.style.left = '280px';
+    but5.style.left = '110px';
+    but51.style.left = '230px';
     but51.style.backgroundColor = 'blue';
     but51.style.border = '5px solid rgba(89, 89, 253, 0.89)';
 })
