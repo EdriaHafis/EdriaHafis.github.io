@@ -7,6 +7,14 @@
     overflow: hidden;
 }
 
+.container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
 .btn-1 {
     border-style: none;
     background-color: aqua;
@@ -48,7 +56,7 @@
 
 /* kotak */
 .kotak-1, .kotak-2, .kotak-3, .kotak-4, .kotak-5, .kotak-6, .kotak-7, .kotak-8, .kotak-9, .kotak-10, .kotak-11, .kotak-12, .kotak-13, .kotak-b1, .kotak-b2, .kotak-b3, .kotak-b4, .kotak-b5, .kotak-b6, .kotak-b7, .kotak-b8, .kotak-b9, .kotak-b10, .kotak-b11, .kotak-b12 {
-    width: 300px;
+    width: 400px;
     height: 200px;
     background-color: white;
     border-radius: 20px;
@@ -163,5 +171,12 @@
 
     to {
         color: white;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .kotak-1, .kotak-2, .kotak-3, .kotak-4, .kotak-5, .kotak-6, .kotak-7, .kotak-8, .kotak-9, .kotak-10, .kotak-11, .kotak-12, .kotak-13, .kotak-b1, .kotak-b2, .kotak-b3, .kotak-b4, .kotak-b5, .kotak-b6, .kotak-b7, .kotak-b8, .kotak-b9, .kotak-b10, .kotak-b11, .kotak-b12 {
+        width: 200px;
     }
 }
